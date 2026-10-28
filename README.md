@@ -1,6 +1,6 @@
-# KisanVaani — Multilingual Voice-First Agricultural Assistant
+# KisanVaani - Multilingual Voice-First Agricultural Assistant
 
-KisanVaani is a student-project prototype for agricultural information access. The interface starts in English and can switch to Hindi or Tamil. A user can type a question or record speech in English, Hindi or Tamil. The app transcribes speech, retrieves relevant material from a small curated agricultural knowledge base, asks an LLM to answer only from the retrieved material, displays source links, and creates a spoken answer.
+KisanVaani is a student-project prototype for agricultural information access. The interface starts in English and can switch to Hindi or Tamil. A user can type a question or record speech in English, Hindi or Tamil. The app transcribes speech, retrieves relevant material from a small curated agricultural knowledge base, asks an LLM to answer only from the retrieved material, displays source links and creates a spoken answer.
 
 > **Safety and scope:** This is an educational prototype, not an official agricultural service. Its knowledge base is small and incomplete. Do not use it as the sole basis for pesticide, fertilizer, irrigation or disease-treatment decisions. Refer to your local Krishi Vigyan Kendra (KVK), agricultural university or agriculture department for location-specific guidance.
 
@@ -11,7 +11,7 @@ KisanVaani is a student-project prototype for agricultural information access. T
 3. Hindi and Tamil questions are translated into an English search query by the LLM. English questions skip this translation call.
 4. The local TF-IDF retrieval code finds the most relevant entries in `knowledge_base/agri_guides.json`.
 5. The LLM is given only the question and retrieved source content and is instructed to cite sources as `[S1]`, `[S2]`, etc. If nothing sufficiently relevant is retrieved, the app uses a cautious fallback instead of asking the LLM to guess.
-6. gTTS creates an MP3 in the selected response language, and Streamlit displays the text, source links and audio player.
+6. gTTS creates an MP3 in the selected response language and Streamlit displays the text, source links and audio player.
 
 ## 2. Folder structure
 
@@ -61,18 +61,18 @@ The starter project defaults to `openai/gpt-oss-20b` for chat and `whisper-large
 
 ## 5. Set up the project on Windows
 
-### Step 1 — Extract the project
+### Step 1 - Extract the project
 
 Download `KisanVaani_Source.zip` and extract it. You should see the `KisanVaani` folder containing `app.py`, `requirements.txt`, `kisanvaani` and `knowledge_base`.
 
-### Step 2 — Open the project folder in VS Code
+### Step 2 - Open the project folder in VS Code
 
 1. Install VS Code if needed.
 2. In VS Code, choose **File → Open Folder** and select the extracted `KisanVaani` folder.
 3. Open **Terminal → New Terminal**.
 4. Confirm that the terminal is inside the `KisanVaani` folder. Run `dir`; `app.py` and `requirements.txt` should be listed.
 
-### Step 3 — Create a virtual environment
+### Step 3 - Create a virtual environment
 
 In the VS Code PowerShell terminal, run these commands one at a time:
 
@@ -107,7 +107,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 When activated, the terminal prompt usually begins with `(.venv)`.
 
-### Step 4 — Install packages
+### Step 4 - Install packages
 
 ```powershell
 python -m pip install --upgrade pip
@@ -120,7 +120,7 @@ For running the test suite too:
 python -m pip install -r requirements-dev.txt
 ```
 
-### Step 5 — Add your API key
+### Step 5 - Add your API key
 
 In the VS Code Explorer, find `.env.example`, copy it and name the copy `.env` in the same top-level `KisanVaani` folder. Open `.env` and replace the placeholder with your real key:
 
@@ -132,7 +132,7 @@ GROQ_STT_MODEL=whisper-large-v3-turbo
 
 Do not add quotation marks unless your provider specifically requires them. Save the file. Do not share `.env`; `.gitignore` is set up to exclude it.
 
-### Step 6 — Run the app
+### Step 6 - Run the app
 
 In the same terminal, run:
 
@@ -160,7 +160,7 @@ Questions to try:
 - `What is integrated pest management?`
 - `What should I consider when planning wheat irrigation?`
 - `How can I reduce water loss from irrigation?`
-- A question about football, a film or another unrelated subject — it should say the current agricultural knowledge base lacks enough evidence.
+- A question about football, a film or another unrelated subject - it should say the current agricultural knowledge base lacks enough evidence.
 
 ## 7. Run tests
 
@@ -182,7 +182,7 @@ Edit `knowledge_base/agri_guides.json`. Each list item should contain the follow
   "title": "Short source-backed topic title",
   "topics": ["keyword one", "keyword two", "crop name"],
   "content": "A concise and carefully checked summary of the source material.",
-  "source_title": "Publisher or institution — page title",
+  "source_title": "Publisher or institution - page title",
   "source_url": "https://official-source.example/page"
 }
 ```
@@ -216,7 +216,7 @@ Activate `.venv` in the project root and run `python -m pip install -r requireme
 
 ### `GROQ_API_KEY` missing
 
-Check that the file is named exactly `.env`, is in the same folder as `app.py`, and contains `GROQ_API_KEY=...`. Restart Streamlit after changing `.env`.
+Check that the file is named exactly `.env`, is in the same folder as `app.py` and contains `GROQ_API_KEY=...`. Restart Streamlit after changing `.env`.
 
 ### Model not found / model access denied
 
@@ -240,7 +240,7 @@ The knowledge base is intentionally small. Try a question using the same topic t
 
 ### It gives an answer that is not well supported
 
-Do not trust it blindly. Check the source links. Improve the source entry, adjust the prompt or threshold, and add a test case. In a real agricultural service, answers should be reviewed by agricultural domain experts and evaluated across regional languages and crops.
+Do not trust it blindly. Check the source links. Improve the source entry, adjust the prompt or threshold and add a test case. In a real agricultural service, answers should be reviewed by agricultural domain experts and evaluated across regional languages and crops.
 
 ## 11. Current limitations and sensible next upgrades
 
