@@ -1,0 +1,98 @@
+[
+  {
+    "id": "grain_storage_drying",
+    "title": "Drying grain before storage",
+    "topics": ["grain storage", "moisture", "wheat", "rice", "cereals", "mould", "fungus", "post-harvest"],
+    "content": "Before storing food grains, clean and grade the produce and dry it to a suitable safe-storage moisture level. Tamil Nadu Agricultural University guidance on storage structures gives 10–12 percent moisture for food grains for a 6–12 month storage period; its grain-storage guidance also discusses reducing grain moisture to around 12–13 percent. The correct target depends on the grain, storage duration, local humidity and storage conditions. Do not seal visibly damp grain in a container. If moisture content cannot be measured, seek local extension advice before long-term storage.",
+    "source_title": "TNAU Agritech Portal — Storage Structures",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insect_sto_sto%20str.html"
+  },
+  {
+    "id": "grain_storage_cleaning",
+    "title": "Cleaning and preparing grain stores",
+    "topics": ["grain storage", "cleaning", "grading", "storage room", "insects", "mould", "rodents"],
+    "content": "Before storing harvested grain, remove dirt, debris, foreign particles, insects and damaged or infested grains. Clean and dry the store and inspect it for openings, moisture leaks and signs of rodents or insects. Keep stored grain protected from rain and ground moisture, and check it periodically. These preventive steps reduce conditions that favour storage pests and mould. Follow local agricultural extension guidance for any treatment of an infested store.",
+    "source_title": "TNAU Agritech Portal — Grain Storage",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insect%20_storage_gra%20pro.html"
+  },
+  {
+    "id": "grain_bag_stacking",
+    "title": "Stacking grain bags safely",
+    "topics": ["grain storage", "bags", "stacking", "wooden pallets", "dunnage", "wall", "ventilation"],
+    "content": "For bagged grain, keep bags off the floor using suitable wooden dunnage or pallets and leave space between stacks and walls so inspection and airflow are possible. TNAU storage guidance describes keeping stacks about 0.5 metre away from walls. Keep the storage area dry, protect bags from rain and inspect for dampness, insects and rodents. Adapt the storage layout to the building, stack stability, local conditions and official guidance.",
+    "source_title": "TNAU Agritech Portal — Grain Storage",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_crop_insect%20_storage_gra%20pro.html"
+  },
+  {
+    "id": "soil_health_card",
+    "title": "Why soil testing and Soil Health Cards matter",
+    "topics": ["soil testing", "soil health card", "fertiliser", "fertilizer", "nutrients", "nitrogen", "phosphorus", "potassium", "soil pH"],
+    "content": "A Soil Health Card reports the tested nutrient status and selected physical or chemical parameters of a farm's soil. The Government of India's Soil Health Card materials describe parameters including nitrogen, phosphorus, potassium, sulphur, micronutrients, pH, electrical conductivity and organic carbon. The card provides crop-oriented fertiliser and soil-amendment recommendations based on test results. Use the recommendations appropriate to the crop and region instead of guessing fertiliser doses from a general chatbot answer.",
+    "source_title": "Government of India — Soil Health Card FAQ",
+    "source_url": "https://soilhealth.dac.gov.in/files/FAQ_Final_English.pdf"
+  },
+  {
+    "id": "soil_sample_collection",
+    "title": "General soil sample collection guidance",
+    "topics": ["soil testing", "soil sample", "soil sampling", "fertiliser", "laboratory", "field"],
+    "content": "Soil test results are useful only when the sample represents the field. The Government of India's Soil Health Card FAQ says samples are generally collected when there is no standing crop and describes collecting soil from several locations in a field, mixing it thoroughly and sending a representative portion to a soil-testing laboratory. Avoid sampling unusual spots such as near compost heaps, drains or shaded areas unless those locations are specifically being investigated. The exact sampling depth and method should follow the local soil-testing laboratory's instructions and the crop advisory.",
+    "source_title": "Government of India — Soil Health Card FAQ",
+    "source_url": "https://soilhealth.dac.gov.in/files/FAQ_Final_English.pdf"
+  },
+  {
+    "id": "integrated_pest_management",
+    "title": "Integrated pest management principles",
+    "topics": ["pests", "insects", "integrated pest management", "IPM", "pesticides", "crop protection", "monitoring"],
+    "content": "Integrated Pest Management combines monitoring, cultural, mechanical, biological and, when needed, chemical methods to manage pests while reducing risks to people and the environment. Tamil Nadu Agricultural University describes identifying pests and beneficial organisms, monitoring pest populations and using different methods together. Chemical control should be considered in context when other measures are insufficient and pest pressure warrants it. Identify the crop and pest correctly and follow the locally registered product label and qualified extension advice; this general guide does not recommend a pesticide or dose.",
+    "source_title": "TNAU Agritech Portal — IPM Introduction",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_ipm_introduction.html"
+  },
+  {
+    "id": "pest_monitoring",
+    "title": "Monitoring a possible pest problem",
+    "topics": ["pests", "crop damage", "monitoring", "scouting", "insects", "disease", "IPM"],
+    "content": "Before choosing a pest-control action, inspect several parts of the field and note the crop, growth stage, affected plant parts, the pattern of damage, the number of affected plants and whether beneficial insects are present. Integrated pest management uses monitoring to understand the pest and its potential damage before selecting a response. Similar symptoms can have different causes, so photographs or a brief description alone may not support a reliable diagnosis. Ask a local agricultural officer or Krishi Vigyan Kendra (KVK) to confirm an uncertain pest or disease.",
+    "source_title": "TNAU Agritech Portal — IPM Introduction",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_ipm_introduction.html"
+  },
+  {
+    "id": "water_saving_irrigation",
+    "title": "General water-saving irrigation practices",
+    "topics": ["water", "irrigation", "water saving", "mulch", "soil moisture", "drought", "over irrigation"],
+    "content": "Irrigation decisions should consider soil moisture, crop stage, weather and the available water supply. Tamil Nadu Agricultural University guidance on good agricultural practice recommends monitoring soil and crop water status, scheduling irrigation carefully and avoiding excessive water application. Mulching and maintaining soil organic matter can help reduce surface evaporation and improve soil condition. Exact timing and quantity depend on crop, soil, rainfall, local climate and irrigation system, so do not apply one universal schedule to every farm.",
+    "source_title": "TNAU Agritech Portal — Good Agricultural Practices",
+    "source_url": "https://agritech.tnau.ac.in/gap_gmp_glp/gap_Agricultural%20compon.html"
+  },
+  {
+    "id": "wheat_irrigation",
+    "title": "Planning irrigation for wheat",
+    "topics": ["wheat", "irrigation", "crown root initiation", "flowering", "grain filling", "water management"],
+    "content": "Wheat irrigation needs vary with soil type, rainfall, climate and the variety grown. Tamil Nadu Agricultural University wheat guidance describes several irrigations over the crop cycle and highlights crown root initiation and flowering as important stages in its schedule. Treat that schedule as a regional reference rather than a universal instruction: confirm the recommendation for the district, soil and current weather with a local agricultural extension officer. Avoid water stagnation around germination.",
+    "source_title": "TNAU Agritech Portal — Wheat After Cultivation",
+    "source_url": "https://agritech.tnau.ac.in/agriculture/agri_cropproduction_wheat_aftercultivation.html"
+  },
+  {
+    "id": "drip_irrigation",
+    "title": "What drip irrigation does",
+    "topics": ["drip irrigation", "micro irrigation", "water", "horticulture", "drippers", "irrigation system"],
+    "content": "Drip irrigation applies water through emitters near the crop root zone. Tamil Nadu Agricultural University describes it as one form of micro-irrigation and notes that suitability depends on crop spacing, soil and system design. A system needs appropriate water filtration, pressure control, pipes and emitters, and it needs maintenance to prevent clogging. Whether installation is economical depends on crop, farm layout, water availability, local subsidy rules and the cost of equipment; seek a local extension or irrigation specialist's advice before investing.",
+    "source_title": "TNAU Agritech Portal — Drip Irrigation",
+    "source_url": "https://www.agritech.tnau.ac.in/agriculture/agri_irrigationmgt_dripirrigation.html"
+  },
+  {
+    "id": "fertiliser_safety",
+    "title": "Avoid guessing fertiliser doses",
+    "topics": ["fertiliser", "fertilizer", "nutrients", "soil test", "dose", "application", "soil health card"],
+    "content": "Do not choose fertiliser type or dose from crop name alone. Nutrient needs depend on soil test results, crop, variety, growth stage, previous applications and local recommendations. The Soil Health Card provides soil nutrient information and crop-based fertiliser or soil-amendment advice. If a card is unavailable or unclear, consult an agricultural extension officer or soil-testing laboratory. Applying excess fertiliser can waste money and may harm soil or water quality.",
+    "source_title": "Government of India — Soil Health Card FAQ",
+    "source_url": "https://soilhealth.dac.gov.in/files/FAQ_Final_English.pdf"
+  },
+  {
+    "id": "unknown_disease_escalation",
+    "title": "When a crop symptom needs local diagnosis",
+    "topics": ["leaf spots", "yellow leaves", "plant disease", "crop disease", "fungus", "pest diagnosis", "symptoms"],
+    "content": "Yellowing, spots, wilting and poor growth can result from several causes, including water stress, nutrient problems, insects or plant pathogens. A text-only description is not enough to reliably diagnose every crop problem. Record the crop and variety, growth stage, location, recent weather, irrigation and fertiliser history, and which leaves or plants are affected. Share clear photos and field details with a qualified local agricultural officer or KVK. Do not apply a pesticide or fungicide solely on the basis of an unconfirmed guess.",
+    "source_title": "TNAU Agritech Portal — Integrated Pest Management",
+    "source_url": "https://agritech.tnau.ac.in/crop_protection/crop_prot_ipm.html"
+  }
+]
