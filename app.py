@@ -131,12 +131,13 @@ with voice_tab:
     st.write(t["voice_instructions"])
     st.caption(t["recording_limit"])
     recording = mic_recorder(
-        start_prompt=t["record_start"],
-        stop_prompt=t["record_stop"],
-        just_once=True,
-        use_container_width=True,
-        key="kisanvaani_mic_recorder",
-    )
+    start_prompt=t["record_start"],
+    stop_prompt=t["record_stop"],
+    just_once=False,
+    format="wav",
+    use_container_width=True,
+    key="kisanvaani_mic_recorder",
+     )
     if recording and recording.get("bytes"):
         st.audio(recording["bytes"], format="audio/wav")
         st.caption(t["voice_ready"])
